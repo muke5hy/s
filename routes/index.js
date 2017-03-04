@@ -11,7 +11,7 @@ if (process.env.REDISTOGO_URL) {
 var MAX_LENGTH = 3;
 
 exports.index = function(req, res){
-  res.render('index', {title: 's - Karan Goel'});
+  res.render('index', {title: 's - Praveen Karthik'});
 };
 
 exports.create_short = function(req, res) {
